@@ -1,0 +1,21 @@
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.1.2
+github.com/jinzhu/now
+# github.com/vertica/vertica-sql-go v1.1.1
+## explicit
+github.com/vertica/vertica-sql-go
+github.com/vertica/vertica-sql-go/common
+github.com/vertica/vertica-sql-go/logger
+github.com/vertica/vertica-sql-go/msgs
+github.com/vertica/vertica-sql-go/parse
+github.com/vertica/vertica-sql-go/rowcache
+# gorm.io/gorm v1.21.11
+## explicit
+gorm.io/gorm
+gorm.io/gorm/callbacks
+gorm.io/gorm/clause
+gorm.io/gorm/logger
+gorm.io/gorm/migrator
+gorm.io/gorm/schema
+gorm.io/gorm/utils

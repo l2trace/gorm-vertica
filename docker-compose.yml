@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  vertica:
+    image: jbfavre/vertica:9.0.1-5_ubuntu-14.04
+    volumes:
+      - ./initdb.sql:/docker-entrypoint-initdb.d/initdb.sql
+    ports:
+    - 5433:5433
+
+
+  go-vertica:
+    build: .
+    volumes:
+    - .:/go/src/github.com/l2trace/gorm-vertica
